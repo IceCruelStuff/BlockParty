@@ -1,2 +1,2 @@
 # BlockParty
-- Plugin minegames PmmP
+- Plugin minegames for PocketMine-PmmP
