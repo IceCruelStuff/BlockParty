@@ -3,7 +3,7 @@ version: 0.1_BETA
 api: 3.0.0
 author: DragoVN
 main: BlockParty\BlockParty
-website:
+website: https://github.com/hachkingtohach1/BlockParty
 description: BlockParty minigame Free!
 
 commands:
