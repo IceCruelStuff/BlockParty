@@ -1,0 +1,156 @@
+## VietNamese được dịch bởi DragoVN
+---
+
+##########################
+#tin nhắn cho các sự kiện#
+##########################
+
+join: "&aChào Mừng bạn đến với BlockParty"
+join_others: "%1 đã tham gia."
+leave: "Đang thoát đấu trường..."
+leave_others: "%1 đã thoát."
+arena_doesnt_exist: "&cĐấu trường này không thể tìm thấy!"
+arena_already_exist: "&cĐấu trường đã tồn tại"
+arena_create: "&eĐấu trường đã được tạo thành công!"
+start_game: "&l&aTrò chơi bắt đầu!"
+death: "%1 đã chết! %2 người chơi còn lại"
+send_to_main_world: "&Quay lại về lobby..."
+ingame_popup: "&aThời gian kết thúc trong:&f %1"
+starting: "&aBắt đầu trong %1 giây!"
+kick_from_game: "&9Bạn đã bị đá ra khỏi đấu trường %1"
+game_full: "&cĐấu trường này đã đầy chỗ"
+ingame: "&cTrò chơi đang tiến hành"
+enable_setup_mode: "&aBây giờ bạn đang ở chế độ thiết lập\n&7-> Sử dụng: &ahelp&7 để hiển thị các lệnh danh sách để thiết lập\n&7-> Sử dụng: &adone&7  để thoát khổi chế độ thiết lập"
+disable_setup_mode: '&aĐấu trường đả được lưu'
+arena_in_setup: "&cĐấu trường này đang ở chế độ thành lập!"
+
+#############################
+#phần thưởng cho chiến thắng#
+#############################
+
+get_money: "&aBạn thắng với %1 money!"
+
+######################################
+#####tin nhắn kết thúc trò chơi#######
+#tạo dòng mới bằng cách sử dụng "\n"##
+######################################
+
+end_game: "&a&l---------------------&r\n&5đấu trường %1 đã kết thúc\n&4những người thắng trò chơi:\n&a1. %2\n&e2. %3\n&c3. %4\n&a&l---------------------"
+not_enough_players: "&cKhông đủ người chơi để tiếp tục trận đấu!"
+
+###############
+#Lệnh tin nhắn#
+###############
+
+has_not_permission: "&cBạn không có quyền để sủ dụng lệnh này!"
+
+#đối số không hợp lệ trong chế độ thiết lập
+
+invalid_arguments: "&cĐối số không hợp lệ\n&aSử dụng: &a&lhelp"
+help: "&aSử dụng: /bp help"
+join_help: "&aSử dụng: /bp join &a[arena name]"
+leave_help: "&aSử dụng: /bp leave &a[arena name]"
+start_help: "&aSử dụng: /bp start &a[arena name]"
+stop_help: "&aSử dụng: /bp stop &a[arena name]"
+kick_help: "&aSử dụng: /bp kick &a[arena name] [player name]"
+set_help: "&aSử dụng: /bp set &a[arena name]"
+create_help: "&aSử dụng: /bp create &a[arena name]"
+delete_help: "&aSử dụng: /bp delete &a[arena name]"
+setlobby_help: "&aSử dụng: &asetlobby"
+arena_running: "&cArena is running now"
+use_cmd_in_game: "&aYou can use this only in-game"
+arena_not_running: "&aArena is not in-game!"
+player_not_exist: "&cPlayer is not in arena"
+
+#####################################
+#thiết lập chế độ thực hiện tin nhắn#
+#####################################
+
+joinsign: "&aDấu hiệu tham gia đã được cập nhật thành công"
+returnsign: "&aDấu hiệu để lại đã được cập nhật thành công"
+startpos: "&aVị trí bắt đầu đã được cập nhật thành công"
+lobbypos: "&aVị trí sảnh đã được cập nhật thành công"
+corners: "&aGóc sàn đã được cập nhật thành công"
+first_corner: "&aGóc đầu tiên đã được đặt thành công\n&eBây giờ phá vỡ khối để đặt góc thứ hai"
+second_corner: "&aGóc thứ hai đã được đặt thành công"
+spectatorspawn: "&aSpawn spawn đã được cập nhật thành công"
+mainlobby: "&aVị trí sảnh chính đã được cập nhật thành công"
+statusline: "&aDòng đăng nhập đã được cập nhật thành công"
+type: "&aLoại đấu trường đã được cập nhật thành công"
+material: "&aVật liệu sàn đã được cập nhật thành công"
+allowstatus: "&aDấu hiệu trạng thái đã được cập nhật thành công"
+signupdatetime: "&aDấu hiệu cập nhật khoảng thời gian đã được cập nhật thành công"
+world: "&aĐấu trường thế giới đã được cập nhật thành công"
+allowspectator: "&aChế độ khán giả đã được cập nhật thành công"
+maxtime: "&aThời gian giới hạn của đấu trường được cập nhật thành công"
+maxplayers: "&aSố lượng người chơi tối đa đã được cập nhật thành công"
+minplayers: "&aSố lượng người chơi tối thiểu đã được cập nhật thành công"
+starttime: "&aThời gian bắt đầu đã được cập nhật thành công"
+colortime: "&aKhoảng thời gian thay đổi màu đã được cập nhật thành công"
+time: "&aThời gian đấu trường đã được cập nhật thành công"
+enable: "&aĐấu trường đã được cập nhật thành công"
+
+###################################################
+#thông báo về lệnh trợ giúp trong chế độ thiết lập#
+###################################################
+
+statusline_help: "&aSử dụng: &astatusline &b[line] [text]"
+type_help: "&aSử dụng: &atype &b[classic/furious/stoned]"
+material_help: "&aSử dụng: &amaterial &b[wool/clay]"
+allowstatus_help: "&aSử dụng: &aallowstatus &b[true/false]"
+signupdatetime_help: "&aSử dụng: &asignupdatetime &b[seconds]"
+world_help: "&aSử dụng: &aworld &b[world name]"
+allowspectator_help: "&aSử dụng: &aallowspectator &b[true/false]"
+maxtime_help: "&aSử dụng: &amaxtime &b[seconds]"
+maxplayers_help: "&aSử dụng: &amaxplayers &b[amount]"
+minplayers_help: "&aSử dụng: &aminplayers &b[amount]"
+starttime_help: "&aSử dụng: &astarttime &b[seconds]"
+colortime_help: "&aSử dụng: &acolortime &b[seconds]"
+time_help: "&aSử dụng: &atime &b[true/day/night/TICKS]"
+enable_help: "&aSử dụng: &aenable &b[true/false]"
+
+####################################
+#Thông báo lệnh trợ giúp BlockParty#
+####################################
+
+lobby: "\n- &a/bp lobby &r&f Qua trở lại sảnh chờ"
+onleave: "\n- &a/bp leave &r&f Thoát đấu trường"
+onjoin: "\n- &a/bp join &b[arena name] &r&f Tham gia vào một đấu trường"
+start: "\n- &a/bp start &b[arena name] &r&f Khởi động đấu trường nhanh"
+stop: "\n- &a/bp stop &b[arena name] &r&f Dừng đột ngột đấu trường"
+kick: "\n- &a/bp kick &b[arena name] [player name] [reason] &r&f Đá 1 player bất kì khởi đấu trường"
+set: "\n- &a/bp set &b[arena name] &r&f Vào trạng thái thành lập cho đấu trường"
+delete: "\n- &a/bp delete &b[arena name] &r&f Xóa bất kỳ đấu trường nào"
+create: "\n- &a/bp create &b[arena name] &r&f Tạo đấu trường mới"
+
+#################################################
+#chế độ thiết lập đấu trường giúp thông báo lệnh#
+#################################################
+
+help_joinsign: "\n- &ajoinsign &r&f Cài tọa độ cho biển hiển thị tham gia đấu trường"
+help_returnsign: "\n- &areturnsign &r&f Cài tọa độ cho biển hiển thị quay về đấu trường"
+help_startpos: "\n- &astartpos &r&f Đặt vị trí bắt đầu trò chơi"
+help_lobbypos: "\n- &alobbypos &r&f Đặt vị trí sảnh"
+help_corners: "\n- &acorners &r&f Đặt góc sàn"
+help_spectatorspawn: "\n- &aspectatorspawn &r&f Đặt khán giả sinh sản"
+help_time: "\n- &atime &b[true/day/night/ticks] &r&f Đặt thời gian trong đấu trường"
+help_colortime: "\n- &acolortime &b[seconds] &r&f Đặt khoảng thời gian thay đổi màu"
+help_type: "\n- &atype &b[classic/furious/stoned] &r&f Đặt loại đấu trường"
+help_material: "\n- &amaterial &b[wool/clay] &r&f Đặt vật liệu sàn"
+help_allowstatus: "\n- &aallowstatus &b[true/false] &r&f Enable/disable trạng thái trên biển hiển thị tham gia"
+help_world: "\n- &aworld &b[world name] &r&f Đặt tên đấu trường"
+help_enable: "\n- &aenable &b[true/false] &r&f Enable/disable Arena"
+help_statusline: "\n- &astatusline &b[line (1-4)] [text] &r&f Đặt dòng dấu hiệu trạng thái"
+help_allowspectator: "\n- &aallowspectator &b[true/false] &r&f Enable/Disable chế độ khán giả"
+help_signupdatetime: "\n- &asignupdatetime &b[seconds] &r&f Đặt thời gian tự cập nhật biển hiển thị được tính giây"
+help_maxtime: "\n- &amaxtime &b[seconds] &r&f Đặt thời gian giới hạn"
+help_maxplayers: "\n- &amaxplayers &b[count] &r&f Đặt số lượng người chơi giới hạn"
+help_minplayers: "\n- &aminplayers &b[count] &r&f Đặt số người chơi cần thiết để bắt đầu trận"
+
+#########################
+#tin nhắn thiết lập khác#
+#########################
+
+break_block: "&aNgay bây hãy phá block theo chỉ dẫn"
+break_sign: "&aNgay bây giờ phá biển hiệu mà bạn muốn đặt"
+...

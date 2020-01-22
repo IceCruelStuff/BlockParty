@@ -1,0 +1,50 @@
+name: BlockParty
+version: 0.1_BETA
+api: 3.0.0
+author: DragoVN
+main: BlockParty\BlockParty
+website:
+description: BlockParty minigame Free!
+
+commands:
+    bp:
+        description: "BlockParty commands"
+permissions:
+    bp:
+        description: "main BlockParty permission"
+        default: op
+        children:
+            bp.command:
+                description: "main command permission"
+                default: op
+                children:
+                    bp.command.help:
+                        description: "BlockParty help"
+                        default: true
+                    bp.command.join:
+                        description: "join to arena"
+                        default: true
+                    bp.command.leave:
+                        description: "leave arena "
+                        default: true
+                    bp.command.start:
+                        description: "start game"
+                        default: op
+                    bp.command.stop:
+                        description: "stop game"
+                        default: op
+                    bp.command.kick:
+                        description: "kick player from the arena"
+                        default: op
+                    bp.command.lobby:
+                        description: "send player to lobby"
+                        default: true
+                    bp.command.set:
+                        description: "allow player to edit arenas from the game"
+                        default: op
+                    bp.sign:
+                        description: "join using signs"
+                        default: true
+                    bp.acces:
+                        description: "allow player to play colormatch"
+                        default: true
